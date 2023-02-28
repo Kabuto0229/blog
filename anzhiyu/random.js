@@ -1,0 +1,1 @@
+var posts=["posts/hexo-github-actions/","posts/64a5dea2/","posts/hexo-notes/","posts/20143/","posts/37754/","posts/65346/","posts/44881/","posts/16107/","posts/nvm/","posts/1/","posts/34870/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
